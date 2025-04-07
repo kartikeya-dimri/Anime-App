@@ -45,10 +45,3 @@ In the output, you'll find options to open the app in a
 - **TypeScript**
 
 ---
-
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/dattebayo.git
-cd dattebayo
