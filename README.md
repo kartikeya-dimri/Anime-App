@@ -1,27 +1,11 @@
 # Welcome to 🍥 Dattebayo — Anime Explorer App 👋
 project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
-## Get started
+## 🖼️ Screenshots
 
-1. Install dependencies
-
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
+| 📱 Home Screen | 📘 Anime Details |
+|:--:|:--:|
+| ![Home](./demo_images/demo1.png) | ![Details](./demo_iamges/demo2.png) |
 
 **Dattebayo** is a modern anime browsing app built with **React Native**. It showcases the top trending and most popular anime, lets users explore detailed anime information, and delivers an immersive mobile experience — all powered by the [Jikan API](https://jikan.moe/).
 
