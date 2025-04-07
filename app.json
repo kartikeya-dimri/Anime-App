@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "anime_app",
+    "name": "Dattebayo だってばよ",
     "slug": "anime_app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "icon": "./assets/images/fire-kanji.png",
+    "scheme": "anime",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -13,21 +13,22 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "foregroundImage": "./assets/images/fire-kanji.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.dimri_kartikeya.anime_app"
     },
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/fire-kanji.png"
     },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
-          "image": "./assets/images/splash-icon.png",
+          "image": "./assets/images/fire-kanji.png",
           "imageWidth": 200,
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
@@ -36,6 +37,15 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8925ae2b-50d8-4250-9b84-6f774f74248c"
+      }
+    },
+    "owner": "dimri_kartikeya"
   }
 }
