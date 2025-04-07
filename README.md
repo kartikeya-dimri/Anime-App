@@ -3,9 +3,21 @@ project created with [`create-expo-app`](https://www.npmjs.com/package/create-ex
 
 ## 🖼️ Screenshots
 
-| 📱 Home Screen | 📘 Anime Details |
-|:--:|:--:|
-| ![Home](./demo_images/demo1.jpg) | ![Details](./demo_iamges/demo2.jpg) |
+<table>
+  <tr>
+    <th align="center">📱 Home Screen</th>
+    <th align="center">📘 Anime Details</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./demo_images/demo1.jpg" alt="Home Screen" width="250"/>
+    </td>
+    <td align="center">
+      <img src="./demo_images/demo2.jpg" alt="Anime Details" width="250"/>
+    </td>
+  </tr>
+</table>
+
 
 **Dattebayo** is a modern anime browsing app built with **React Native**. It showcases the top trending and most popular anime, lets users explore detailed anime information, and delivers an immersive mobile experience — all powered by the [Jikan API](https://jikan.moe/).
 
