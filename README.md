@@ -1,4 +1,4 @@
-# Welcome to your Expo app 🍥 Dattebayo — Anime Explorer App 👋
+# Welcome to 🍥 Dattebayo — Anime Explorer App 👋
 project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
 
 ## Get started
