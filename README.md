@@ -23,28 +23,36 @@ In the output, you'll find options to open the app in a
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
 - [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# 🍥 Dattebayo — Anime Explorer App
 
-## Get a fresh project
+**Dattebayo** is a modern anime browsing app built with **React Native**. It showcases the top trending and most popular anime, lets users explore detailed anime information, and delivers an immersive mobile experience — all powered by the [Jikan API](https://jikan.moe/).
 
-When you're ready, run:
+---
 
+## ✨ Features
+
+- 🔥 **Trending Anime** – Discover what's hot in the anime world right now
+- 📈 **Popular Anime** – Scroll through globally popular anime series
+- 📖 **Anime Details** – View synopsis, genres, ratings, episodes, and more
+- 🎨 **Clean & Responsive UI** – Optimized for both Android and iOS
+- ⚡ **Fast & Lightweight** – Uses Axios + efficient data fetching
+- 🌚 **Dark Mode Support** *(optional)*
+
+---
+
+## 🛠 Tech Stack
+
+- **React Native** (via [Expo](https://expo.dev/))
+- **React Navigation**
+- **[Jikan API](https://jikan.moe/)** – Unofficial MyAnimeList API
+- **Tailwind CSS / NativeWind** – For rapid styling
+- **TypeScript**
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/yourusername/dattebayo.git
+cd dattebayo
